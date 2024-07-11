@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color:rgb(49, 129, 49);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+.bar{
+    background-color:aliceblue;
+    border-radius: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding:10px;
+}
+
+h2 {
+    margin: 0;
+    text-align:left;
+    padding-left:10px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+#add-button{
+    background-color: rgb(20, 124, 194);
+    border-radius: 20px;
+    width: 60px;
+    border:solid white;
+    padding:5px;
+    color:white
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+#todo-list {
+    list-style-type: none;
+    padding-left: 30px;
+    text-align: left;
+}
+
+#todo-list li.completed {
+    text-decoration: line-through;
+    color: rgb(17, 14, 14);
+    background-color:rgb(240, 232, 232);
+}
+
+#clear-completed{
+    border-radius: 20px;
+    border: solid white;
+    background-color: rgb(20, 124, 194);
+padding: 7px;
+font-size: x-small;
+color: #e0f7fa;
+}
+#empty-list{
+    border-radius: 40px;
+    border: solid white;
+    background-color: rgb(168, 105, 32);
+padding: 7px;
+font-size: x-small;
+color: #e0f7fa;
+}
+#save-list{
+    border-radius: 40px;
+    border: solid white;
+    background-color:rgb(49, 129, 49);
+padding: 7px;
+font-size: x-small;
+color: #e0f7fa;
+}
